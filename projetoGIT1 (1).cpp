@@ -73,5 +73,26 @@ int main()
 {
 
 	cout << "Entre com o texto para fazer o teste:";
+	cout<< "Digite letra:";
+	cin.get(letra);
+	cin.get(lixo);
+	cout<< "Digite texto:";
+	getline(cin,texto);
+	qtdl=(letra,lixo);
+	cout<<"Digite primeira letra:";
+	cin.get(letra1);
+	cin.get(lixo);
+	cout<<"Digite segunda letra:";
+	cin.get(letra2);
+	cin.get(lixo);
+	rtxt=(letra1,letra2,texto);
+	cout<<"Digite palavra:";
+	getline(cin,palavra);
+	qtdls=(palavra,texto);
+	cout<<"Digite primeira palavra:";
+	getline(cin,palavra1);
+	cout<<"Digite segunda palavra:";
+	getline(cin,palavra2);
+	subs=(palavra1,palavra2,texto);
     return 0;
 }
