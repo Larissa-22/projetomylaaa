@@ -89,7 +89,7 @@ int main()
 	cout<<"Digite palavra:";
 	getline(cin,palavra);
 	qtdls=(palavra,texto);
-	cout<<"Digite primeira palavra:";
+	cout<<"Digite primeira palavra::";
 	getline(cin,palavra1);
 	cout<<"Digite segunda palavra:";
 	getline(cin,palavra2);
